@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--jquery lib-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- fontawesome icon kit-->
+        <script src="https://kit.fontawesome.com/18b600236f.js" crossorigin="anonymous"></script>
+
+        <!-- bootstrap 4 lib-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <!-- scss-->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&family=Pacifico&family=Yrsa&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="container-fluid bg-dark text-center">
+                <div class="container d-flex align-items-center">
+                    <div class="mr-5"><i class="mr-2 fas fa-map-marker-alt"></i> FoodFarm, W 35th St, New York</div>
+                    <div><i class="mr-2 fas fa-envelope"></i> mypet_info@gmail.com</div>
+                    <nav class="ml-auto navbar navbar-expand-md navbar-light">
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsible">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsible">
+                            <ul id="header-contact" class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-quora"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <nav class="container-fluid ">
+                <div class="container d-flex">
+                    <div id="logo">
+                        my<span>Pet</span>
+                        <img src="easter-bunny.png 347397.png" width="25">
+                    </div>
+
+                    <nav class="ml-auto navbar navbar-expand-md navbar-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible2">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="collapsible2">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                                <li class="nav-item"><a class="nav-link" href="services.html">SERVICES</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">GALLERY</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about-us.html">ABOUT</a></li>
+                                <li class="nav-item"><a class="nav-link" href="shop.html">SHOP</a></li>
+                                <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div id="cart" class="d-flex">
+                        <i class="fas fa-shopping-bag"></i> 
+                        <div class="quantity">2</div>
+                </div>
+                    <div id="search">
+                        <i class="fas fa-search"></i></div>
+                    
+                </div>
+            </nav>
+        </header>
+
+        <section id="banner">
+            
+
+            <div id="demo" class="carousel slide" data-ride="slide">
+                <!--indicators-->
+                <a class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                </a>
+
+                <!--carousel inner-->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="dogs_1280p_0.jpg" alt="dogs" width="100%">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="maxresdefault.jpg" alt="cat" width="100%">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="background1.png" alt="pet" width="100%">
+                    </div>
+                </div>
+            
+                <!-- banner frontier-->
+                <div class="banner-frontier d-flex flex-column align-items-center text-center">
+                    <h1>Love your Pet, Care Pet</h1>
+                    <h6> With over 15  years of Experience </h6>
+                    <h3>Pet Care services and best quality Pet  for your Home</h3>
+                    <div class="btn-groups">
+                        <button type="button" class="btn btn-danger mr-3">
+                            SHOP NOW
+                        </button>
+                        <button type="button" class="btn btn-default btn-outline-light">
+                            GET PET
+                        </button>
+                    </div>
+                </div>
+                <!--carousel controllers-->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev" id="prev">
+                    <i class="prev far fa-arrow-alt-circle-left"></i>
+                </a>
+
+                <a class="carousel-control-next" href="#demo" data-slide="next" id="next">
+                    <i class="next far fa-arrow-alt-circle-right"></i>
+                </a>
+            </div>
+
+        </section>
+
+
+        <section id="banner-bottom" class="container-fluid">
+            
+            <div class="container">
+                <div class="row text-center">
+                    <div class="item col-sm-12 col-md-4 ">
+                        <img src="egyptian-cat.png 107979.png" alt="egyptian-cat">
+                        <h3>Healty Pet Care</h3>
+                        <p>We have over 15 years of experiece</p>
+                    </div>
+                    <div class="item col-sm-12 col-md-4 ">
+                        <img src="dog-training.png _185475.png" alt="egyptian-cat">
+                        <h3>Requesting for Services</h3>
+                        <p>Quality Pet Service</p>
+                    </div>
+                    <div class="item col-sm-12 col-md-4 ">
+                        <img src="pawprint.png 372898.png" alt="egyptian-cat">
+                        <h3>$40 Off Purchase</h3>
+                        <p>$100 off OR Special Financing</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="introduce" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="divider"></div>
+                        <h1>We are <span class="logo">my<span>Pet</span></span></h1>
+                        <p>Welcome! We are glad you would like to explore a different type of pet care for your furry friends. We have been providing top-notch pet sitting and pet care in the Littleton community since 1995 and the Best Choice as an alternative to pet boarding</p>
+                        <br>
+                        <p>There are many advantages of your pet staying in their own home. Some of them are; no exposure to illnesses such as kennel cough, canine flu, & parasites.</p>
+                        <button type="button" class="btn btn-danger">KNOW MORE</button>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <img src="pet-store-illustration-illustration-pet-store-168176197.jpg" alt="placeholder">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="container-fluid text-center">
+            <div class="container">
+                <div class="legend d-flex flex-column align-items-center">
+                    <div class="divider"></div>
+                    <h1>Our Pet Services</h1>
+                    <p>Best Friends Pet Care is the leader of the pack when it comes to the absolute best care for your cat or dog.</p>
+                </div>
+                <div class="row">
+                    <div class="item col-sm-12 col-md-6 col-lg-4">
+                        <img src="service-1.jpg" alt="placeholder">
+                        <h3>PET ADOPTION</h3>
+                        <p>Whether your pet needs a scratch around the ear, a face to lick or a place to play,</p>
+                    </div>
+                    <div class="item col-sm-12 col-md-6 col-lg-4">
+                        <img src="service-2.jpg" alt="placeholder">
+                        <h3>PET GROOMING</h3>
+                        <p>Best Friends Pet Care is the leader of the pack when it comes to the absolute best care for your cat or dog.</p>
+                    </div>
+                    <div class="item col-sm-12 col-md-6 col-lg-4">
+                        <img src="service-3.jpg" alt="placeholder">
+                        <h3>Pet Health care</h3>
+                        <p>In a professional context it often happens that private or corporate clients order a publication</p>
+                    </div>
+                    <div class="item col-sm-12 col-md-6 col-lg-4">
+                        <img src="service-4.jpg" alt="placeholder">
+                        <h3>DOG WALKING</h3>
+                        <p>Whether your pet needs a scratch around the ear, a face to lick or a place to play,</p>
+                    </div>
+                    <div class="item col-sm-12 col-md-6 col-lg-4">
+                        <img src="service-5.jpg" alt="placeholder">
+                        <h3>PET DAYCARE</h3>
+                        <p>Best Friends Pet Care is the leader of the pack when it comes to the absolute best care for your cat or dog.</p>
+                    </div>
+                    <div class="item col-sm-12 col-md-6 col-lg-4">
+                        <img src="service-6.jpg" alt="placeholder">
+                        <h3>Nice Product</h3>
+                        <p>In a professional context it often happens that private or corporate clients order a publication</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="progress">
+            <img class="background-img" src="Rectangle_14.png" width="100%" alt="background">
+            <div class="container-fluid">
+                <div class="container z-index">
+                    <div class="row">
+                        <div class="item d-flex justify-content-center col-sm-6 col-lg-3" >
+                            <img src="005-business-8.png" alt="handshake">
+                            <div class="text">
+                                <p class="title">Happy customers</p>
+                                <p class="quantity">210</p>
+                            </div>
+                        </div>
+                        <div class="item d-flex justify-content-center col-sm-6 col-lg-3">
+                            <img src="satisfaction (1).png" alt="handshake">
+                            <div class="text">
+                                <p class="title">Customer Satisfaction</p>
+                                <p class="quantity">100%</p>
+                            </div>
+                        </div>
+                        <div class="item d-flex justify-content-center col-sm-6 col-lg-3">
+                            <img src="012-2-floor-house.png" alt="handshake">
+                            <div class="text">
+                                <p class="title">Pet Hosted</p>
+                                <p class="quantity">95</p>
+                            </div>
+                        </div>
+                        <div class="item d-flex justify-content-center col-sm-6 col-lg-3">
+                            <img src="medal.png" alt="handshake">
+                            <div class="text">
+                                <p class="title">Awards Winning</p>
+                                <p class="quantity">234</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h3>Our pet health care System</h3>
+                        <p>The doctors and staff at Pet Care Veterinary Hospital have years of experience treating a variety of reptiles including Bearded Dragons, Geckos, Snakes and Tortoises. Our hospital offers physical exams, vaccinations, nutrition, behavioral and environmental enrichment information for your pet ferret.</p>
+                        <br>
+                        <div class="d-flex justify-content-between text-center">
+                            <div class="left">
+                                <img src="dog-training.png _185475_small.png" alt="a">
+                                <h4>HOME DELIVERY</h4>
+                            </div>
+                            <div class="right">
+                                <img src="snowshoe-cat.png 10797.png" alt="a">
+                                <h4>QUALITY PET</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <h3>Doing the right thing, Discover Our Products</h3>
+                        <p>Our veterinarians and staff understand the importance of the special bond you share with your pet and are dedicated to providing the best that modern veterinary care has to offer</p>
+                        <br>
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header">
+                                    Trusted Pet Sitters Across the Country
+                                    <a class="card-link float-right" data-toggle="collapse" href="#collapseOne">
+                                        -
+                                    </a>
+                                </div>
+                                <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>The perfect harmony between innovation and creativity, our bathroom tiles are produced in compliance with the international standards. High quality 20mm thick porcelain tiles that can be laid on pedestals,
+                                        </p>                                    
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header">
+                                        What can I offer my bird as a treat?
+                                        <a class="collapsed card-link float-right" data-toggle="collapse" href="#collapseTwo">
+                                            +
+                                        </a>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, illum asperiores, debitis error recusandae obcaecati cum eligendi, porro eius natus id! Ea cumque delectus perferendis sunt unde vel architecto neque?
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header">
+                                        When Your Rabbit Stops Eating
+                                        <a class="collapsed card-link float-right" data-toggle="collapse" href="#collapseThree">
+                                            +
+                                        </a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore aut architecto dolor minima voluptate, pariatur, laborum aliquid aliquam ab officia facere hic, rerum enim voluptatum error nostrum! In, molestiae aperiam.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="container-fluid ">
+            <div class="legend d-flex flex-column align-items-center">
+                <div class="divider"></div>
+                <h1>Client Review</h1>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="identity d-flex">
+                            <img src="Capture.PNG" alt="binh" class="rounded-circle" width="25%">
+                            <div class="name">
+                                <h4>Bui Khac Binh</h4>
+                                <p>CEO, Pet care</p>
+                            </div>
+                        </div>
+                        <div class="content d-flex flex-column justify-content-center align-items-start">
+                            <p class="text-center text-light">I’ve been happy with the services provided by Finazi LLC. Felix has been wonderful! He has returned my calls quickly, and he answered all my questions.</p>
+                            <img src="003-straight-quotes.png">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="identity d-flex">
+                            <img src="ceo-thu.PNG" alt="thu" class="rounded-circle" width="25%">
+                            <div class="name">
+                                <h4>Tran Thu Thu</h4>
+                                <p>CEO, Pet care</p>
+                            </div>
+                        </div>
+                        <div class="content d-flex flex-column justify-content-center align-items-start" id="content2">
+                            <p class="text-center">I’ve been happy with the services provided by Finazi LLC. Felix has been wonderful! He has returned my calls quickly, and he answered all my questions.</p>
+                            <img src="003-straight-quotes copy.png">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="latest-news" class="container-fluid">
+            <div class="legend d-flex flex-column align-items-center">
+                <div class="divider"></div>
+                <h1>Latest News</h1>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="item col-sm-12 col-md-4">
+                        <img src="blog-1.jpg" alt="placeholder">
+                        <h3>Dogs Having The Summer<br>
+                            Ever</h3>
+                        <p>Summer is a time of vacations and travel or simply relaxing at home for a staycation As much as we would love for our dogs to accompany </p>
+                        <br>
+                        <p class="date">13 /04 /17</p>
+                    </div>
+                    <div class="item col-sm-12 col-md-4">
+                        <img src="blog-2.jpg" alt="placeholder">
+                        <h3>The cat feeling sad , when <br>
+                            she was alone</h3>
+                        <p>Summer is a time of vacations and travel or simply relaxing at home for a staycation As much as we would love for our dogs to accompany </p>
+                        <br>
+                        <p class="date">13 /04 /17</p>
+                    </div>
+                    <div class="item col-sm-12 col-md-4">
+                        <img src="blog-3.jpg" alt="placeholder">
+                        <h3>Cat Having nice moment<br>
+                            the winter</h3>
+                        <p>Summer is a time of vacations and travel or simply relaxing at home for a staycation As much as we would love for our dogs to accompany </p>
+                        <br>
+                        <p class="date">13 /04 /17</p>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <section id="association" class="container-fluid">
+            <div class="container d-flex justify-content-around">
+                <img src="partner-6.png" alt="partner1">
+                <img src="images.png" alt="partner2">
+                <img src="images-02.png" alt="partner3">
+                <img src="partner-10.png" alt="partner4">
+            </div>
+        </section>
+
+        <footer>
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-sm-12 col-md-5 first-column">
+                        <div class="logo">
+                            my<span>Pet</span>
+                            <img src="easter-bunny.png 347397.png" width="25">
+                        </div>
+                        <p><span>myPet</span> was established in 2017 by Pet business veterans, Rod Davies and Matthew Levington, the journey began when founders Matthew Levington and Rod Davies, met up in 2017 over a beer
+                        </p>
+
+                        <ul id="header-contact" class="d-flex ml-auto align-item-center">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-quora"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <div class="small-legend">
+                            <h3>Important Links</h3>
+                            <div class="divider"></div>
+                        </div>
+                        <div class="links d-flex flex-wrap ">
+                            <a href="#">Support</a>
+                            <a href="#">Pet</a>
+                            <a href="#" class="active">About us</a>
+                            <a href="#">Our history</a>
+                            <a href="#">Project</a>
+                            <a href="#">What we do</a>
+                            <a href="#">Shop</a>
+                            <a href="#">Living Areas</a>
+                            <a href="#">Performance</a>
+                            <a href="#">Pet Product</a>
+                            <a href="#">News</a>
+                            <a href="#">Contact us</a>
+                            <a href="#">Pet Health Food</a>
+                        </div>
+                    </div>
+                    <div class="news-update col-sm-12 col-md-3">
+                        <div class="small-legend">
+                            <h3>News Update</h3>
+                            <div class="divider"></div>
+                        </div>
+
+                        <div class="item">
+                            <h3>Prefinished Solid Hardwood 
+                                Flooring</h3>
+                            <p class="date">february 02,2021</p>
+                        </div>
+
+                        <div class="item">
+                            <h3>Latst pet care in summer 12
+                                care them well</h3>
+                            <p class="date">april 02,2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer-bottom" class="container-fluid">
+                <div class="container d-flex justify-content-between align-items-center">
+                    <div class="copyright">
+                        Copyright © 2017 <span>myPet</span>  All Rights Reserved by <span>Unifytheme</span>
+                    </div>
+                    <form class="bg-dark d-flex justify-content-center align-items-center">
+                        <input class="bg-dark" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-danger">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </body> 
+</html>
